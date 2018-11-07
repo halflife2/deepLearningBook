@@ -48,6 +48,7 @@ plt.legend()
 img = imread('sojin.jpg')
 
 #### 코드 수정함 #########
+### dkdkdkdkdkdkflsadfaskldfjalksdfjkl####
 
 plt.imshow(img)
 plt.show()
