@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from matplotlib.image import imread
 
 #-------------------------넘파이 기본연산----------------------#
+#############4번째 수정 ##############
+
+#### 5번째 수정 #######
 A = np.array([[1,2,5],[3,4,6],[7,7,1],[9,1,5]])
 B = np.array([4,6])
 print(A.shape)
@@ -43,6 +46,8 @@ plt.legend()
 
 #-------------------------이미지 불러오기--------------------#
 img = imread('sojin.jpg')
+
+#### 코드 수정함 #########
 
 plt.imshow(img)
 plt.show()
