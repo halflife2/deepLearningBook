@@ -45,10 +45,24 @@ plt.title('sin&cos')
 plt.legend()
 
 #-------------------------이미지 불러오기--------------------#
-img = imread('sojin.jpg')
+# img = imread('sojin.jpg')
+# plt.imshow(img)
+# plt.show()
 
-#### 코드 수정함 #########
-### dkdkdkdkdkdkflsadfaskldfjalksdfjkl####
 
-plt.imshow(img)
-plt.show()
+#----------------------multidem array--------------------#
+A = np.array([1,2,3,4])
+print(A)
+print(np.ndim(A))
+print(A.shape[0])
+
+#---------------------행렬의 내적 ---------------------------#
+
+B = np.array([[1,2],[3,4]])
+print(B.shape)
+
+C = np.array([[5,6],[7,8]])
+print(C.shape)
+
+print(np.dot(B,C))
+print(np.dot(C,B))
