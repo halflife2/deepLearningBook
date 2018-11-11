@@ -21,6 +21,17 @@ def softmax(x):
 
     return y
 
+def mean_square_error(y,x):
+    return 0.5 * np.sum((y-x)**2)
+
+def cross_entropy_error(y,x):
+    if y.ndim == 1:
+        x = x.reshape(1, x.size)
+        y = y.reshape(1, y.size)
+
+    batch_size = y.shape[0]
+    return -np.sum(t * np.log(y)) / batch_size
+
 
 def init_network():
     network = {}
