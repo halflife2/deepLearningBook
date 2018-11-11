@@ -2,7 +2,7 @@
 # 상위폴더 NN 임포트 시키는 방법임
 import sys, os
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
-from NN import sigmoid,relu
+from NN import sigmoid,relu, mean_square_error, cross_entropy_error
 ###########################
 
 import numpy as np
